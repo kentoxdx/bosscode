@@ -1,20 +1,18 @@
 "use client";
 
+import { useParams } from "next/navigation";
 import { useState } from "react";
 import {
-  About,
+  BlogPostPageContent,
   content,
-  ContributionGraph,
   Footer,
-  Hero,
-  HomeCta,
   Language,
   MangaLoader,
   Navbar,
-  Portfolio,
-} from "./components/site";
+} from "../../components/site";
 
-export default function Home() {
+export default function BlogPostPage() {
+  const params = useParams<{ slug: string }>();
   const [language, setLanguage] = useState<Language>("en");
   const text = content[language];
 
@@ -28,11 +26,7 @@ export default function Home() {
           setLanguage((current) => (current === "en" ? "th" : "en"))
         }
       />
-      <Hero text={text} />
-      <About text={text} />
-      <ContributionGraph text={text} />
-      <Portfolio text={text} />
-      <HomeCta text={text} />
+      <BlogPostPageContent text={text} slug={params.slug} />
       <Footer text={text} />
     </main>
   );

@@ -1,0 +1,31 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#f4edde"/>
+  <rect x="420" width="360" height="176" rx="24" fill="#2f405f"/>
+  <circle cx="752" cy="20" r="86" fill="#405276" opacity=".55"/>
+  <rect x="444" y="26" width="36" height="36" rx="12" fill="#f2aa31"/>
+  <circle cx="462" cy="44" r="4" fill="#213049"/>
+  <rect x="498" y="28" width="235" height="16" rx="8" fill="white"/>
+  <rect x="498" y="54" width="143" height="10" rx="5" fill="#dbe2ef"/>
+  <rect x="444" y="92" width="292" height="48" rx="24" fill="#43516d" stroke="#6a7893"/>
+  <rect x="451" y="98" width="160" height="36" rx="18" fill="#f1aa33"/>
+  <text x="506" y="122" fill="#1f2b42" font-family="Arial, sans-serif" font-size="16" font-weight="800">ในเมือง</text>
+  <text x="660" y="122" fill="#e8edf8" font-family="Arial, sans-serif" font-size="16" font-weight="800">สามพร้าว</text>
+  <text x="438" y="214" fill="#3b8c8d" font-family="Arial, sans-serif" font-size="24" font-weight="800">▦</text>
+  <text x="470" y="216" fill="#1c2531" font-family="Arial, sans-serif" font-size="24" font-weight="800">เว็บแอปโชว์สินค้าของนักศึกษา</text>
+  <text x="470" y="246" fill="#233044" font-family="Arial, sans-serif" font-size="16">โชว์สินค้าจากนักศึกษา UDRU</text>
+  <rect x="436" y="278" width="328" height="84" rx="18" fill="#fffdf8" stroke="#decfb8"/>
+  <text x="456" y="312" fill="#1f2b42" font-family="Arial, sans-serif" font-size="18" font-weight="800">เกี่ยวกับหน้านี้</text>
+  <text x="456" y="344" fill="#6b5849" font-family="Arial, sans-serif" font-size="18">พื้นที่โชว์สินค้าจากนักศึกษาในมหาวิทยาลัย</text>
+  <text x="456" y="388" fill="#188485" font-family="Arial, sans-serif" font-size="22" font-weight="800">▦</text>
+  <text x="485" y="389" fill="#1a232f" font-family="Arial, sans-serif" font-size="22" font-weight="800">สินค้าที่โพสต์</text>
+  <text x="720" y="389" fill="#5e534b" font-family="Arial, sans-serif" font-size="16" font-weight="800">0 รายการ</text>
+  <rect x="436" y="414" width="328" height="166" rx="18" fill="#fffdf8" stroke="#decfb8" stroke-dasharray="4 4"/>
+  <rect x="580" y="458" width="40" height="32" rx="6" fill="none" stroke="#afa89f" stroke-width="4"/>
+  <path d="M590 458V450C590 442 610 442 610 450V458" stroke="#afa89f" stroke-width="4" stroke-linecap="round"/>
+  <text x="538" y="522" fill="#1a232f" font-family="Arial, sans-serif" font-size="20" font-weight="800">ยังไม่มีสินค้าในโซนนี้</text>
+  <text x="484" y="552" fill="#6b5849" font-family="Arial, sans-serif" font-size="16">เป็นคนแรกที่โพสต์สินค้าในโซนนี้ กดปุ่ม + ด้านล่างได้เลย</text>
+  <circle cx="708" cy="694" r="24" fill="#f0a52f"/>
+  <path d="M708 681V707M695 694H721" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <text x="518" y="620" fill="#b6a89c" font-family="Arial, sans-serif" font-size="14">Development by</text>
+  <text x="623" y="620" fill="#0019d4" font-family="Arial, sans-serif" font-size="14" font-weight="800">BOSSCODE</text>
+</svg>

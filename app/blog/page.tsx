@@ -2,19 +2,15 @@
 
 import { useState } from "react";
 import {
-  About,
+  BlogPageContent,
   content,
-  ContributionGraph,
   Footer,
-  Hero,
-  HomeCta,
   Language,
   MangaLoader,
   Navbar,
-  Portfolio,
-} from "./components/site";
+} from "../components/site";
 
-export default function Home() {
+export default function BlogPage() {
   const [language, setLanguage] = useState<Language>("en");
   const text = content[language];
 
@@ -28,11 +24,7 @@ export default function Home() {
           setLanguage((current) => (current === "en" ? "th" : "en"))
         }
       />
-      <Hero text={text} />
-      <About text={text} />
-      <ContributionGraph text={text} />
-      <Portfolio text={text} />
-      <HomeCta text={text} />
+      <BlogPageContent text={text} />
       <Footer text={text} />
     </main>
   );

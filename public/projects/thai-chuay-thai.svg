@@ -1,0 +1,30 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#d7ecf8"/>
+  <path d="M0 0H1200V760H0V0Z" fill="#d7ecf8"/>
+  <path d="M0 0H1200V120L1070 82L930 142L750 70L565 135L390 64L190 130L0 92V0Z" fill="#f9fbff" opacity=".65"/>
+  <path d="M-60 650C150 535 350 546 550 650C786 771 1016 786 1260 633" stroke="#d92d2d" stroke-width="34" opacity=".65"/>
+  <path d="M-60 690C150 575 350 586 550 690C786 811 1016 826 1260 673" stroke="#183a74" stroke-width="20" opacity=".65"/>
+  <circle cx="1020" cy="318" r="176" fill="#465f89" opacity=".78"/>
+  <text x="930" y="335" fill="white" font-family="Arial, sans-serif" font-size="86" font-weight="800">60:40</text>
+  <text x="962" y="390" fill="#fff" font-family="Arial, sans-serif" font-size="30" font-weight="700">รัฐช่วยจ่าย ครึ่งหนึ่ง</text>
+  <circle cx="170" cy="323" r="112" fill="#ffe2cf"/>
+  <circle cx="145" cy="300" r="12" fill="#203047"/>
+  <circle cx="196" cy="300" r="12" fill="#203047"/>
+  <path d="M142 350C160 372 190 372 207 350" stroke="#203047" stroke-width="10" stroke-linecap="round"/>
+  <path d="M86 234C130 170 221 184 246 250C194 216 140 214 86 234Z" fill="#2c3a4c"/>
+  <rect x="92" y="417" width="150" height="170" rx="30" fill="#40658f"/>
+  <rect x="70" y="548" width="200" height="92" rx="16" fill="#f7f7f7"/>
+  <text x="92" y="602" fill="#183a74" font-family="Arial, sans-serif" font-size="26" font-weight="800">ไทยช่วยไทย</text>
+  <rect x="414" y="80" width="372" height="520" rx="24" fill="white"/>
+  <rect x="414" y="80" width="372" height="520" rx="24" stroke="#dce7f1" stroke-width="3"/>
+  <text x="508" y="196" fill="#09367a" font-family="Arial, sans-serif" font-size="48" font-weight="800">ไทยช่วยไทย</text>
+  <text x="475" y="307" fill="#082d55" font-family="Arial, sans-serif" font-size="27" font-weight="800">ระบบคำนวณการจ่ายสินค้าไทยช่วยไทย</text>
+  <text x="555" y="352" fill="#082d55" font-family="Arial, sans-serif" font-size="34" font-weight="800">60/40</text>
+  <text x="464" y="401" fill="#54708e" font-family="Arial, sans-serif" font-size="18">กรอกราคาสินค้าเต็ม ระบบจะคำนวณยอดที่ต้องจ่ายจริงให้ทันที</text>
+  <text x="445" y="485" fill="#0d2e4e" font-family="Arial, sans-serif" font-size="18" font-weight="700">ราคาสินค้า (บาท)</text>
+  <rect x="445" y="505" width="312" height="64" rx="14" fill="#f8fbff" stroke="#b5c8dc" stroke-width="2"/>
+  <text x="480" y="546" fill="#73879d" font-family="Arial, sans-serif" font-size="20">ระบุจำนวนเงิน เช่น 1000</text>
+  <rect x="445" y="590" width="312" height="56" rx="14" fill="#1199d5"/>
+  <text x="555" y="626" fill="white" font-family="Arial, sans-serif" font-size="19" font-weight="800">คำนวณราคา</text>
+  <rect width="1200" height="760" fill="white" opacity=".52"/>
+</svg>

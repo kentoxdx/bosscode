@@ -2,24 +2,20 @@
 
 import { useState } from "react";
 import {
-  About,
   content,
-  ContributionGraph,
+  CoursePageContent,
   Footer,
-  Hero,
-  HomeCta,
   Language,
   MangaLoader,
   Navbar,
-  Portfolio,
-} from "./components/site";
+} from "../components/site";
 
-export default function Home() {
+export default function CoursePage() {
   const [language, setLanguage] = useState<Language>("en");
   const text = content[language];
 
   return (
-    <main className="min-h-screen bg-white text-black">
+    <main className="min-h-screen bg-black text-white">
       <MangaLoader />
       <Navbar
         text={text}
@@ -28,11 +24,7 @@ export default function Home() {
           setLanguage((current) => (current === "en" ? "th" : "en"))
         }
       />
-      <Hero text={text} />
-      <About text={text} />
-      <ContributionGraph text={text} />
-      <Portfolio text={text} />
-      <HomeCta text={text} />
+      <CoursePageContent text={text} />
       <Footer text={text} />
     </main>
   );
