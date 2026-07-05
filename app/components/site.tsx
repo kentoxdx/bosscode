@@ -141,6 +141,14 @@ export const content = {
           href: "https://web-for-you-ecru.vercel.app/",
           image: "/projects/student-product-board.svg",
         },
+        {
+          title: "Food for Work",
+          description:
+            "A food-focused web app for browsing workplace meal options with a clean, practical interface.",
+          tech: "Next.js / Tailwind CSS / Vercel",
+          href: "https://foodforwork.vercel.app/",
+          image: "/projects/sapp.png",
+        },
       ],
     },
     about: {
@@ -351,6 +359,14 @@ export const content = {
           tech: "Next.js / React / Web App",
           href: "https://web-for-you-ecru.vercel.app/",
           image: "/projects/student-product-board.svg",
+        },
+        {
+          title: "เว็บ Food for Work",
+          description:
+            "เว็บแอปเกี่ยวกับอาหารสำหรับดูตัวเลือกมื้ออาหารในการทำงาน ด้วยหน้าตาที่เรียบและใช้งานง่าย",
+          tech: "Next.js / Tailwind CSS / Vercel",
+          href: "https://foodforwork.vercel.app/",
+          image: "/projects/sapp.png",
         },
       ],
     },
