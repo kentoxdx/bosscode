@@ -149,6 +149,14 @@ export const content = {
           href: "https://foodforwork.vercel.app/",
           image: "/projects/sapp.png",
         },
+        {
+          title: "Bangkok Grillaz",
+          description:
+            "A restaurant website with a bold food-forward presentation and clear browsing flow.",
+          tech: "Next.js / Tailwind CSS / Vercel",
+          href: "https://www.bangkokgrillaz.com/",
+          image: "/projects/bangkok-grillaz.png",
+        },
       ],
     },
     about: {
@@ -367,6 +375,14 @@ export const content = {
           tech: "Next.js / Tailwind CSS / Vercel",
           href: "https://foodforwork.vercel.app/",
           image: "/projects/sapp.png",
+        },
+        {
+          title: "เว็บ Bangkok Grillaz",
+          description:
+            "เว็บไซต์ร้านอาหารที่นำเสนอเมนูและภาพลักษณ์ของแบรนด์อย่างชัดเจน พร้อม flow การดูข้อมูลที่ใช้งานง่าย",
+          tech: "Next.js / Tailwind CSS / Vercel",
+          href: "https://www.bangkokgrillaz.com/",
+          image: "/projects/bangkok-grillaz.png",
         },
       ],
     },
