@@ -95,7 +95,7 @@ type SiteContent = {
   footer: {
     copyright: string;
     links: {
-      label: "GitHub" | "Facebook" | "Instagram";
+      label: "GitHub" | "Facebook" | "Instagram" | "Fastwork";
       href: string;
     }[];
   };
@@ -122,7 +122,7 @@ export const content = {
       eyebrow: "Selected Work",
       title: "Portfolio",
       description:
-        "Two live projects built for real use cases, arranged like monochrome manga panels.",
+        "Live projects built for real use cases, arranged like monochrome manga panels.",
       viewProject: "View Project",
       items: [
         {
@@ -156,6 +156,14 @@ export const content = {
           tech: "Next.js / Tailwind CSS / Vercel",
           href: "https://www.bangkokgrillaz.com/",
           image: "/projects/bangkok-grillaz.png",
+        },
+        {
+          title: "BOSSED Shop",
+          description:
+            "An online game store for browsing affordable Steam Offline games and game IDs through a bold storefront experience.",
+          tech: "Next.js / Tailwind CSS / E-commerce",
+          href: "https://ibossed-shop.vercel.app/",
+          image: "/projects/bossed-shop.png",
         },
       ],
     },
@@ -326,6 +334,10 @@ export const content = {
           href: "https://www.facebook.com/woramet.veningying.2024",
         },
         { label: "Instagram", href: "https://www.instagram.com/bosscode___/" },
+        {
+          label: "Fastwork",
+          href: "https://fastwork.co/user/darzf8ps?source=web_marketplace_profile-menu_profile",
+        },
       ],
     },
   },
@@ -383,6 +395,14 @@ export const content = {
           tech: "Next.js / Tailwind CSS / Vercel",
           href: "https://www.bangkokgrillaz.com/",
           image: "/projects/bangkok-grillaz.png",
+        },
+        {
+          title: "เว็บ BOSSED Shop",
+          description:
+            "เว็บร้านเกมสำหรับเลือกซื้อเกม Steam Offline และไอดีเกมราคาประหยัด พร้อมหน้าร้านที่โดดเด่นและใช้งานง่าย",
+          tech: "Next.js / Tailwind CSS / E-commerce",
+          href: "https://ibossed-shop.vercel.app/",
+          image: "/projects/bossed-shop.png",
         },
       ],
     },
@@ -553,6 +573,10 @@ export const content = {
           href: "https://www.facebook.com/woramet.veningying.2024",
         },
         { label: "Instagram", href: "https://www.instagram.com/bosscode___/" },
+        {
+          label: "Fastwork",
+          href: "https://fastwork.co/user/darzf8ps?source=web_marketplace_profile-menu_profile",
+        },
       ],
     },
   },
@@ -634,6 +658,19 @@ function SocialIcon({ label }: { label: SiteContent["footer"]["links"][number]["
       <svg {...commonProps}>
         <path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.24 10.44 22v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.23.2 2.23.2V8.6h-1.25c-1.23 0-1.62.77-1.62 1.56v1.9h2.76l-.44 2.91h-2.32V22C18.34 21.24 22 17.08 22 12.06Z" />
       </svg>
+    );
+  }
+
+  if (label === "Fastwork") {
+    return (
+      <Image
+        src="/logo/fastwork.png"
+        alt=""
+        width={42}
+        height={42}
+        className="h-7 w-7 object-contain transition group-hover:invert"
+        aria-hidden="true"
+      />
     );
   }
 
@@ -1293,7 +1330,7 @@ export function Footer({ text }: { text: SiteContent }) {
               href={link.href}
               target="_blank"
               rel="noreferrer"
-              className="grid h-10 w-10 place-items-center border border-black text-black transition hover:bg-black hover:text-white"
+              className="group grid h-10 w-10 place-items-center border border-black text-black transition hover:bg-black hover:text-white"
               aria-label={link.label}
             >
               <SocialIcon label={link.label} />
