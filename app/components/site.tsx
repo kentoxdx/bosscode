@@ -165,6 +165,14 @@ export const content = {
           href: "https://ibossed-shop.vercel.app/",
           image: "/projects/bossed-shop.png",
         },
+        {
+          title: "CHAPTER CAFÉ",
+          description:
+            "A minimalist café website with a calm visual direction, bilingual content, and clear paths to the menu and shop details.",
+          tech: "Next.js / Tailwind CSS / Responsive Design",
+          href: "https://cafe-net.vercel.app/",
+          image: "/projects/chapter-cafe.png",
+        },
       ],
     },
     about: {
@@ -403,6 +411,14 @@ export const content = {
           tech: "Next.js / Tailwind CSS / E-commerce",
           href: "https://ibossed-shop.vercel.app/",
           image: "/projects/bossed-shop.png",
+        },
+        {
+          title: "เว็บ CHAPTER CAFÉ",
+          description:
+            "เว็บไซต์คาเฟ่สไตล์มินิมอลที่ให้บรรยากาศสงบ รองรับเนื้อหาสองภาษา และเข้าถึงเมนูกับข้อมูลร้านได้อย่างชัดเจน",
+          tech: "Next.js / Tailwind CSS / Responsive Design",
+          href: "https://cafe-net.vercel.app/",
+          image: "/projects/chapter-cafe.png",
         },
       ],
     },
